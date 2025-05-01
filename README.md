@@ -8,7 +8,7 @@ Just a session token middleware for Tako.  Works great with
 ```javascript
 var sessionToken = require("tako_session_token")
 
-// use the default token of "tako-session"...
+// use the default token of "tako_session"...
 app.on("request", sessionToken)
 
 // or define one of your own
@@ -23,4 +23,3 @@ app.route("/foo", function (req, res) {
   // store such as redis, or something.
 })
 ```
-
